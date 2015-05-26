@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	var bstModel = new BinarySearchTree();
 	bstModel.populate(50);
 
-	//render view
+	// render view
 	var bstView = new BinarySearchTreeView();
 	bstView.render(bstModel);
 });
