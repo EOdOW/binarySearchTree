@@ -1,0 +1,26 @@
+svg {
+	width: 800px;
+	height: 500px;
+	padding: 20px;
+	position: relative;
+	top: 50px;
+	left: 50px;
+	border: 1px solid black;
+}
+
+path.link {
+  fill: none;
+	stroke: #ccc;
+	stroke-width: 1.5px;
+}
+
+circle{
+	fill: white;
+	stroke: black;
+	stroke-width: 1;	
+} 
+
+circle.highlighted {
+	stroke: blue;
+	fill: lightblue;
+}
